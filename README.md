@@ -141,6 +141,10 @@ submission.csv: Final merged predictions.
 
 submission.zip: Compressed file for final submission.
 
+Results 
+ST1: `hazard-category` and `product-category` - Score: 0.4466 - Ranking: 33th place 
+ST2: `hazard` and `product` - Score: 0.1811 - Ranking: 23th place
+
 Notes
 
 Adjust the threshold in handle_rare_classes to customize the merging of rare classes.
@@ -155,6 +159,4 @@ Add more sophisticated handling for class imbalance.
 
 Improve data visualization to identify trends and correlations.
 
-Results 
-ST1: `hazard-category` and `product-category` - Score: 0.4466 - Ranking: 33th place 
-ST2: `hazard` and `product` - Score: 0.1811 - Ranking: 23th place
+
